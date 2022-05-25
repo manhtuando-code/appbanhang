@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/63IT3_Nhom15_AppBanHang/63IT3_Nhom15_AppBanHang/testbtl/app/src/main/res/layout/activity_order.xml" value="0.23108108108108108" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/63IT3_Nhom15_AppBanHang/63IT3_Nhom15_AppBanHang/testbtl/app/src/main/res/layout/dong_newarrivals.xml" value="0.23108108108108108" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable-mdpi/background_sanpham.xml" value="0.11597222222222223" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2588628762541806" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/background_button_dat_hang.xml" value="0.2588628762541806" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2588628762541806" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/outline_filter_alt_24.xml" value="0.2588628762541806" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/outline_person_24.xml" value="0.2614864864864865" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/outline_search_24.xml" value="0.2614864864864865" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/drawable/vien_botron_edittext.xml" value="0.2588628762541806" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_about_app.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_bottoms.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_home.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_new_arrivals.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_order.xml" value="0.24849498327759198" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_product_detail.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_search.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_shopping_cart.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_size_chart.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/activity_tops.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_frag_shopping_cart.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_listview_loaisp.xml" value="0.1" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_newarrivals.xml" value="0.25" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_sanpham.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_shopping_cart.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/dong_tops.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/fragment_account.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/fragment_search.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/fragment_shoppingcart.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/layout/progressbar.xml" value="0.24849498327759198" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/menu/search_menu.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/menu/toolba_menu.xml" value="0.25101351351351353" />
+        <entry key="..\:/HocTap/Nam4_ki1/Block2/LT_Nhung/testbtl/app/src/main/res/menu/toolbar_item.xml" value="0.25101351351351353" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OrderActivity"
+    android:weightSum="10">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Thanh toán"
+        app:titleMarginStart="125dp"
+        app:titleTextColor="@color/orange"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/tvthongtingiaohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin giao hàng"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtInputHoten"
+            android:hint="Họ và tên"
+            android:background="@drawable/vien_botron_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toBottomOf="@id/tvthongtingiaohang"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/txtInputEmail"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/vien_botron_edittext"
+            app:layout_constraintTop_toBottomOf="@id/txtInputHoten"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/txtInputSodienthoai"
+            android:hint="Số điện thoại"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/vien_botron_edittext"
+            app:layout_constraintTop_toBottomOf="@id/txtInputEmail"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/txtInputDiachi"
+            android:hint="Địa chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/vien_botron_edittext"
+            app:layout_constraintTop_toBottomOf="@id/txtInputSodienthoai"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/tvPhuongthucvanchuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phương thức vận chuyển"
+            app:layout_constraintTop_toBottomOf="@+id/txtInputDiachi"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutvanchuyen"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhuongthucvanchuyen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/vien_botron_edittext">
+
+            <TextView
+                android:id="@+id/tvthongtinphuongthucvanchuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Giao hàng tận nơi"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvgiaphuongthucvanchuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="40dp"
+                android:text="30.000đ"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/tvthongtinphuongthucvanchuyen"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tvPhuongthucthanhtoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phương thức thanh toán"
+            app:layout_constraintTop_toBottomOf="@+id/layoutvanchuyen"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutphuongthucthanhtoan"
+            app:layout_constraintTop_toBottomOf="@+id/tvPhuongthucthanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/vien_botron_edittext">
+
+            <TextView
+                android:id="@+id/tvthongtinphuongthucthanhtoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Thanh toán khi nhận hàng (COD)"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <EditText
+            android:id="@+id/txtInputMagiamgia"
+            android:background="@drawable/vien_botron_edittext"
+            android:hint="Mã giảm giá"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toBottomOf="@id/layoutphuongthucthanhtoan"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:id="@+id/btnsudungmagiamgia"
+            android:layout_width="120dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:text="Sử dụng"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toRightOf="@+id/txtInputMagiamgia"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutphuongthucthanhtoan" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btndathang"
+        android:backgroundTint="@color/orange"
+        android:layout_margin="20dp"
+        android:text="Đặt hàng"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>
